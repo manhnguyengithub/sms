@@ -15,14 +15,12 @@ import { GetMobileOperatingSystemService } from '../getMobileSystem.service'
         this.device = this.getSystemService.getMobileOperatingSystem();
         
         if (this.device === 'iphone') {
-            window.open('sms:9698&body=VVP', '_self');
+            window.open('sms:9698&body=UT', '_self');
             return;
         }
         if (this.device === 'android') {
-            window.open('sms:9698?body=VVP', '_self');
+            window.open('sms:9698?body=UT', '_self');
             return;
         }
     }
-
-
 }

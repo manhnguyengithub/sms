@@ -27,5 +27,3 @@ export class FeUplComponent implements OnInit {
 
 
 }
-
-}
